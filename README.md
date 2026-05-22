@@ -61,6 +61,15 @@ If you haven't drunk water in **1 hour**, the bottle vibrates and reminds you. A
 
 ```
 gep-ivp-project/
-├── README.md          # This file
-└── Smart bottle.md    # Full project plan & hardware procurement list
+├── README.md                # This file
+├── Smart bottle.md          # Full project plan & hardware procurement list
+└── tech-support/
+    └── github-setup-guide.md  # GitHub setup & workflow guide for juniors
 ```
+
+---
+
+## Authors
+
+- **Xinli**
+- **Yuxuan**

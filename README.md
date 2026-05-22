@@ -14,16 +14,13 @@ The bottle tracks water intake using a weight sensor. The more you drink, the mo
 | 🐤 | Drank some water | Penguin Chick |
 | 🐧 | Bottle emptied | Big Blue Penguin |
 
-If you haven't drunk water in **1 hour**, the bottle vibrates and reminds you. At night, flip the sleep switch to silence everything.
+If you haven't drunk water in **1 hour**, a reminder message appears on the screen.
 
 ## Features
 
 - **Weight sensor** — detects when you drink
 - **OLED display** — shows the penguin pet at each stage
-- **Vibration motor** — gentle nudge reminders
-- **Voice reminder** — speaker says "Remember to drink more water!"
-- **Exam mode** — silent mode; shows reminder text on screen instead
-- **Sleep mode** — cuts power to the motor for quiet nights
+- **Screen reminder** — displays "Remember to drink more water!" when idle
 - **Auto-reset** — penguin resets to egg every morning
 
 ## Hardware Requirements
@@ -35,20 +32,16 @@ If you haven't drunk water in **1 hour**, the bottle vibrates and reminds you. A
 | 1kg Load Cell + HX711 | Weight sensor | $10–14 |
 | 3.7V LiPo Battery (1000mAh) | Power | $8–12 |
 | TP4056 Charging Module | Battery charging | $2–3 |
-| Mini Vibration Motor | Nudge reminder | — |
-| Speaker | Voice reminder | — |
-| Toggle switches | Sleep/Exam mode | — |
 | Breadboard + Jumper Wires | Connections | $5–8 |
-| **Total** | | **~$46–69** |
+| **Total** | | **~$37–57** |
 
 ## Logic Flow
 
-1. **Morning** — Flip switch ON → Screen shows Blue Egg
-2. **Noon** — No water for 1 hour → Bottle vibrates
+1. **Morning** — Bottle powers on → Screen shows Blue Egg
+2. **Noon** — No water for 1 hour → Screen reminder appears
 3. **Afternoon** — Drinks half → Screen shows Penguin Chick
 4. **Evening** — Bottle empty → Screen shows Big Blue Penguin
-5. **Night** — Flip switch OFF → Sleeping Penguin
-6. **Next day** — Flip ON → Resets to Blue Egg
+5. **Next day** — Refill and restart → Resets to Blue Egg
 
 ## Why Raspberry Pi Pico 2?
 

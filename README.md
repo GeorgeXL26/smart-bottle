@@ -53,9 +53,12 @@ If you haven't drunk water in **1 hour**, a reminder message appears on the scre
 ## Project Structure
 
 ```
-gep-ivp-project/
+smart-bottle/
 ├── README.md                # This file
 ├── Smart bottle.md          # Full project plan & hardware procurement list
+├── python-code/             # Python source code
+├── c-code/                  # C source code
+├── images/                  # Penguin pet images
 └── tech-support/
     └── github-setup-guide.md  # GitHub setup & workflow guide for juniors
 ```

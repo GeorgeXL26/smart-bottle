@@ -6,6 +6,9 @@ A beginner-friendly guide for junior developers to get started with GitHub.
 
 ## 1. Setting Up a GitHub Account
 
+**Video guide:** [How to use github?](https://www.youtube.com/watch?v=a9u2yZvsqHA)
+
+
 ### Step 1: Create an Account
 1. Go to https://github.com
 2. Click **Sign up**
@@ -37,7 +40,6 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 If you're on an Intel Mac, the path may be `/usr/local/bin/brew` instead.
 
-**Video guide:** [How to Install Homebrew on Mac](https://www.youtube.com/watch?v=a9u2yZvsqHA)
 
 ### Step 3: Install Git on Your Computer
 

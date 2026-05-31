@@ -1,6 +1,6 @@
 # Penguin Smart Bottle 🐧
 
-An IoT smart water bottle designed for students who forget to drink water. It features a **virtual penguin pet** that grows as you stay hydrated — turning hydration into a game.
+A smart water bottle designed for students who forget to drink water. It features a **virtual penguin pet** that grows as you stay hydrated — turning hydration into a game.
 
 **Target audience**: Students who do not drink water often.
 
@@ -29,11 +29,9 @@ If you haven't drunk water in **1 hour**, a reminder message appears on the scre
 |-----------|---------|----------------|
 | Raspberry Pi Pico 2 | Microcontroller (brain) | $8–10 |
 | 0.96" OLED (I2C) | Display | $9–12 |
-| 1kg Load Cell + HX711 | Weight sensor | $10–14 |
-| 3.7V LiPo Battery (1000mAh) | Power | $8–12 |
-| TP4056 Charging Module | Battery charging | $2–3 |
+| Weight sensor | $10–14 |
 | Breadboard + Jumper Wires | Connections | $5–8 |
-| **Total** | | **~$37–57** |
+| **Total** | | **~$27-$42** |
 
 ## Logic Flow
 
